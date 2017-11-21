@@ -23,3 +23,7 @@ new, .new {
 	font-family: "Lucida Console", Monaco, monospace; letter-spacing:2px; line-height:1.5em;
 	white-space:pre;
 }
+table hr { 	visibility:visible!important;
+			width:75%;margin:0 auto!important;
+            border:0;height:1px;background:#333;
+            background-image:linear-gradient(to right,#ccc,#333,#ccc); }
