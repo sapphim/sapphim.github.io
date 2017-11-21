@@ -1,0 +1,25 @@
+body {
+    color: #222;
+}
+a.custom-external-link, a.custom-internal-link {
+    font-weight:800; text-decoration:none; color:#58180D;
+}
+a.custom-external-link:hover, a.custom-internal-link:hover {
+    color:#AC8F66;
+}
+a.custom-external-link:after, a.custom-internal-link:after {
+    font-family:FontAwesome; font-size:.8em; margin:0 0 0 5px;
+}
+a.custom-external-link:after {
+    content:"\f08e"!important;
+}
+a.custom-internal-link:after {
+    content:"\f0c1"!important;
+}
+new, .new {
+    color: mediumvioletred;
+}
+.mono table, .mono table strong {
+	font-family: "Lucida Console", Monaco, monospace; letter-spacing:2px; line-height:1.5em;
+	white-space:pre;
+}
