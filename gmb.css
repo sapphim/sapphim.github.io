@@ -1,5 +1,5 @@
 .phb { color: #222; }
-.phb:after { content:''; }
+.phb:after { content:''!important; }
 .phb a.custom-external-link, a.custom-internal-link { font-weight:800; text-decoration:none; color:#58180D; }
 .phb a.custom-external-link:hover, a.custom-internal-link:hover { color:#AC8F66; }
 .phb a.custom-external-link:after, a.custom-internal-link:after { font-family:FontAwesome; font-size:.8em; margin:0 0 0 5px; }
