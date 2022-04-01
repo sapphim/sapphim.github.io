@@ -68,9 +68,6 @@
 .phb blockquote, .phb blockquote em, .phb blockquote strong, .phb .descriptive, .phb .descriptive em, .phb .descriptive strong, .phb table, .phb .spellList, .phb hr + section blockquote ul, .phb hr + section blockquote ul strong, .phb hr + section blockquote h3 {
 	font-family: Lato,ScalySans,sans-serif;
 }
-.phb blockquote, .phb .descriptive {
-	font-size:12px;
-}
 .phb hr + section blockquote h3 {
 	color:#58180D;
 }
